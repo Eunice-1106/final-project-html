@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <title>藝文新聞</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Noto Sans TC", sans-serif;
+            background-color: #4E6174;
+            color: white;
+        }
+
+        header {
+            background-color: #333;
+            padding: 8px;
+            font-size: 12px;
+        }
+
+        nav {
+            background-color: #9AAFC7;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 10px 0;
+        }
+
+        nav a {
+            background-color: #BCCBE0;
+            padding: 6px 16px;
+            text-decoration: none;
+            color: #000;
+            border-radius: 4px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #FFD700;
+        }
+
+        .section-title span {
+            color: white;
+        }
+
+        .main-news,
+        .news-grid {
+            margin-bottom: 40px;
+        }
+
+        /*主要新聞照片*/
+        .main-news img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        /*主要新聞*/
+        .main-news p {
+            margin: 10px 0;
+        }
+
+        .news-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+
+        .news-item {
+            flex: 1 1 calc(33.333% - 20px);
+            /* 讓三欄排列時平均分配空間，並預留 gap 空間 */
+            min-width: 260px;
+            /* 設定最小寬度，太小時會自動換行 */
+            background-color: #5C6E85;
+            padding: 10px;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+
+        .news-item img {
+            width: 100%;
+            border-radius: 4px;
+            margin-bottom: 8px;
+        }
+
+        .news-item p {
+            font-size: 12px;
+            margin: 6px 0;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #F7F4ED;
+            color: #000;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+            text-decoration: none;
+            margin-top: 6px;
+        }
+
+        footer {
+            text-align: right;
+            font-size: 14px;
+            padding: 20px;
+            background-color: #4E6174;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="main-news">
+            <h2 class="section-title">多元媒材建構日常場景<span>《隔壁 Next Door》訴說邊界與空間關係</span></h2>
+            <p>2023/09/28．藝文新聞</p>
+            <img src="/Users/lixinyu/FINAL2/隔壁/隔壁5.jpg">
+            <p>「【記者黎昕俞綜合報導】「場所的邊界一旦被意識，那麼『隔壁』才開始存在。」互為好友的藝術家王襦萱、國立臺北藝術大學美術學系碩士生林君達、國立臺南藝術大學造形藝術學系碩士生陳彥齊，於18日起在新竹市竹師藝文空間二館，舉辦聯合展覽《隔壁
+                Next Door》。在展場中間，三位藝術家以一塊正方形盒子，間隔出三個等大的空間，傳達各自對於「日常」的想像及觀察。 </p>
+            <a class="button" href="/Users/lixinyu/FINAL2/隔壁/index3.html">觀看全文 &gt;&gt;</a>
+        </section>
+
+        <section class="news-grid">
+            <div class="news-item">
+                <img src="/Users/lixinyu/FINAL2/她說/123.jpeg">
+                <p>傳統技法揉合現代元素&nbsp;&nbsp;吳宥萱描繪女性所思所想</p>
+                <p>2023/09/28．藝文新聞</p>
+                <a class="button" href="/Users/lixinyu/FINAL2/她說/index12.html">觀看全文 &gt;&gt;</a>
+            </div>
+            <div class="news-item">
+                <img src="/Users/lixinyu/FINAL2/腐蝕/4456.jpeg">
+                <p>融東西方元素&nbsp;&nbsp;翁榛羚藉腐蝕手法呈當代價值觀</p>
+                <p>2023/12/13．藝文新聞</p>
+                <a class="button" href="/Users/lixinyu/FINAL2/腐蝕/index6.html">觀看全文 &gt;&gt;</a>
+            </div>
+            <div class="news-item">
+                <img src="/Users/lixinyu/FINAL2/科技/123.jpg">
+                <p>探索「科技泛靈論」&nbsp;&nbsp;親密關係》以數據審思生命記憶</p>
+                <p>2023/11/15．藝文新聞</p>
+                <a class="button" href="/Users/lixinyu/FINAL2/科技/index9.html">觀看全文 &gt;&gt;</a>
+            </div>
+        </section>
+
+
+<!----->
+    <div class="container">
+        <section class="main-news">
+            <h2 class="section-title">模擬複製影像<span>胡馨方揭濾鏡世代現象</span></h2>
+            <p>2024/07/02．藝文新聞</p>
+            <img src="/Users/lixinyu/FINAL2/複製/1.jpeg">
+            <p>【記者黎昕俞台北報導】牆上懸掛著一系列宛如複製品的畫作，其中卻隱藏著許多微妙差異。國立臺北藝術大學美術學系胡馨方，於9日在北藝大南北畫廊舉辦個展《SAMPLE》，他藉由大小型態不同，但卻相似度高的作品，表達現代人拍照時常使用濾鏡，導致社群媒體上流竄著相似影音的現象。 </p>
+            <a class="button" href="/Users/lixinyu/FINAL2/複製/index5.html">觀看全文 &gt;&gt;</a>
+        </section>
+
+        <section class="news-grid">
+            <div class="news-item">
+                <img src="/Users/lixinyu/FINAL2/食用人間/1.jpeg">
+                <p>《食用人間》演繹人性&nbsp;&nbsp;將地下室搬上舞台創末日感</p>
+                <p>2023/09/28．藝文新聞</p>
+                <a class="button" href="/Users/lixinyu/FINAL2/食用人間/index7.html">觀看全文 &gt;&gt;</a>
+            </div>
+
+            <div class="news-item">
+                <img src="/Users/lixinyu/FINAL2/聽見日常/2.jpeg">
+                <p>聽見詩中日常&nbsp;&nbsp;《綿綿》詩曲共譜生命感受</p>
+                <p>2023/12/13．藝文新聞</p>
+                <a class="button" href="/Users/lixinyu/FINAL2/綿綿/index8.html">觀看全文 &gt;&gt;</a>
+            </div>
+
+            <div class="news-item">
+                <img src="/Users/lixinyu/FINAL2/浪費/1.jpeg">
+                <p>從浪費到浪漫&nbsp;&nbsp;以多元媒材重新定義浪漫感知</p>
+                <p>2023/11/15．藝文新聞</p>
+                <a class="button" href="/Users/lixinyu/FINAL2/浪費/index10.html">觀看全文 &gt;&gt;</a>
+            </div>
+        </section>
+
+
+
+    </div>
+
+
+
+
+    <footer>
+        占卜師：黎昕俞
+        占卜顧問：李法賢
+    </footer>
+
+</body>
+
+</html>
